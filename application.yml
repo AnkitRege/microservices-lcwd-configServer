@@ -1,1 +1,12 @@
+# making below config to make the service as client in eureka server
 
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultzone: http://localhost:8761/eureka
+
+# 8761 is the default port for eureka server
