@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: USER-DEFAULT
-
 # making below config to make the service as client in eureka server
 
 eureka:
